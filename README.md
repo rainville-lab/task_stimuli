@@ -109,3 +109,15 @@ Run a short calibration task where the subjects have to look at points shown on 
 
 Once the calibration has been run (though it seems that pupil reload previous calibration), pupil produces gaze information that corresponds to position on the screen.
 We then display that information in almost real-time on the experimenter screen.
+
+### Pain stimulator
+
+Parameters to enter based on individual pain calibration:
+
+- 'mV'
+- Or even a participant-specific file for reproducibility
+- Good way for QC 
+
+
+
+

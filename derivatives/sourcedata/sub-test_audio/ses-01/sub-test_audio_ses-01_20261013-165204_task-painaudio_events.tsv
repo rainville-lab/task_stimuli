@@ -1,0 +1,13 @@
+onset	duration	trial_type	trial	condition	stim_count	channel	isi_after	stim_file	value	response_time	notes	sample
+3.9921	9.9398	audio	0	A	n/a	n/a	n/a	data/test_audio/botte_caoutchouc_10sec_test.wav	n/a	n/a	n/a	24732.0316
+15.9155	0.0100	stimulation	0	A	1	ch0+ch1	8.5375	n/a	n/a	n/a	n/a	24743.9549
+24.4447	0.0100	stimulation	0	A	2	ch0+ch1	11.3897	n/a	n/a	n/a	n/a	24752.4842
+35.8262	0.0100	stimulation	0	A	3	ch0+ch1	11.0551	n/a	n/a	n/a	n/a	24763.8656
+46.8730	0.0100	stimulation	0	A	4	ch0+ch1	9.0203	n/a	n/a	n/a	n/a	24774.9125
+55.8851	0.0100	stimulation	0	A	5	ch0+ch1	9.9817	n/a	n/a	n/a	n/a	24783.9245
+65.8586	0.0100	stimulation	0	A	6	ch0+ch1	9.7980	n/a	n/a	n/a	n/a	24793.8980
+75.6483	0.0100	stimulation	0	A	7	ch0+ch1	10.6064	n/a	n/a	n/a	n/a	24803.6877
+86.2464	0.0100	stimulation	0	A	8	ch0+ch1	11.1549	n/a	n/a	n/a	n/a	24814.2859
+97.3930	0.0100	stimulation	0	A	9	ch0+ch1	8.3754	n/a	n/a	n/a	n/a	24825.4325
+105.7602	0.0100	stimulation	0	A	10	ch0+ch1	n/a	n/a	n/a	n/a	n/a	24833.7997
+107.7675	15.0047	rating	0	A	n/a	n/a	n/a	n/a	n/a	n/a	How painful was the stimulation?	24850.8116

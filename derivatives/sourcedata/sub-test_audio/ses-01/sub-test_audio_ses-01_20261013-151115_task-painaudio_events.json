@@ -1,0 +1,92 @@
+{
+    "TaskName": "task-painaudio",
+    "RepetitionTime": 2.0,
+    "onset": {
+        "Description": "Event onset relative to the first scanner TTL (t0), or to the start of the run when no TTL synchronisation is used",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event or trigger pulse",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Category of the event"
+    },
+    "trial": {
+        "Description": "Trial index in the run (0-based)"
+    },
+    "condition": {
+        "Description": "Condition of the trial (design column 'condition')"
+    },
+    "stim_count": {
+        "Description": "Index of the stimulation within the run (1-based)"
+    },
+    "channel": {
+        "Description": "Arduino channels pulsed (ch0 = stimulator trigger)"
+    },
+    "isi_after": {
+        "Description": "Time from this stimulation onset to the next one in the train",
+        "Units": "seconds"
+    },
+    "stim_file": {
+        "Description": "Audio file played"
+    },
+    "value": {
+        "Description": "Rating, 0 (left anchor) to 100 (right anchor)"
+    },
+    "response_time": {
+        "Description": "Rating response time from rating onset",
+        "Units": "seconds"
+    },
+    "notes": {
+        "Description": "Free text"
+    },
+    "sample": {
+        "Description": "time.monotonic() when the event was logged (as in Task._log_event)"
+    },
+    "ExperimentParameters": {
+        "design": "data/test_audio/design.csv",
+        "steps": {
+            "A": [
+                [
+                    "audio",
+                    "audio_1"
+                ],
+                [
+                    "gap",
+                    2.0
+                ],
+                [
+                    "stim",
+                    "n_stims"
+                ],
+                [
+                    "gap",
+                    2.0
+                ],
+                [
+                    "rating",
+                    "How painful was the stimulation?"
+                ]
+            ]
+        },
+        "stim_isi_fn": "jittered_isi(low=8, high=12, seed=1)",
+        "stim_copy_channels": [
+            1
+        ],
+        "pulse_duration": 0.01,
+        "stimulator": "DryRunStimulator",
+        "start_sync": "none",
+        "start_after_n_trs": 1,
+        "used_fmri_flag": false,
+        "initial_wait": 4,
+        "final_wait": 9,
+        "rating_timeout": 15.0,
+        "code_version": {
+            "commit": "56f7c0b",
+            "uncommitted_changes": true
+        },
+        "psychopy_version": "2023.1.0",
+        "python_version": "3.10.20"
+    }
+}
